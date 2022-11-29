@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to left, orange, rgb(255, 255, 255));
+  height: 80%;
+}
+body {
+  font-size: 0.5rem;
+}
+.imagen-icono {
+  width: 5px;
+}
+.logo-container img {
+  width: 200px;
+  display: inline;
+  margin-inline: -10%;
+  margin-top: 10%;
+}
+.nombre-empresa {
+  width: 100%;
+  margin-inline: -10%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+  list-style: none;
+  margin-top: 100%;
+  width: 50;
+  height: 20%;
+}
+
+.nav__link {
+  display: flex;
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  left: 10%;
+  width: 67%;
+  margin-left: 18%;
+  margin-top: 2%;
+}
+.inicio-caja1 {
+  padding-right: 30%;
+  position: relative;
+  font-size: 3rem;
+  height: 100%;
+}
+
+.inicio-caja2 {
+  position: relative;
+  height: 100%;
+  font-size: x-large;
+  right: 6%;
+}
+.pie-pagina {
+  position: relative;
+  font-size: 2rem;
+  left: 18%;
+  top: 70%;
+  padding-top: 2%;
+}
+
+.nosotros-imagenes {
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-left: 18%;
+  margin-right: 19%;
+  font-size: 1rem;
+  position: relative;
+}
+
+.nosotros-conteiner {
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-left: 18%;
+  margin-right: 19%;
+  font-size: 2rem;
+  position: relative;
+}
+
+.promos-gym {
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-left: 18%;
+  margin-right: 19%;
+  font-size: 2rem;
+  position: relative;
+}
+
+.modalidad-gym {
+  position: relative;
+  font-size: 1.7rem;
+
+  margin-bottom: 2%;
+  margin-left: 18%;
+  margin-right: 19%;
+}
+.historia {
+  display: flex;
+  margin-top: 1%;
+  margin-left: 18%;
+  margin-right: 19%;
+  font-size: 0.4rem;
+  position: relative;
+}
+.comienzo-imagen {
+  position: relative;
+  width: 50%;
+  font-size: 0.5rem;
+}
+.comienzo-texto {
+  position: relative;
+  font-size: 1.7rem;
+  width: 50%;
+}
+.contenedor-contacto {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 18%;
+  margin-right: 19%;
+  font-size: 0.4rem;
+  padding-bottom: 10%;
+  position: relative;
+}
+.logo-logoface {
+  width: 33%;
+  position: relative;
+  font-size: x-large;
+}
+.logo-logoinsta {
+  width: 33%;
+  position: relative;
+  font-size: x-large;
+}
+.logo-logowsp {
+  width: 33%;
+  position: relative;
+  font-size: x-large;
+}
