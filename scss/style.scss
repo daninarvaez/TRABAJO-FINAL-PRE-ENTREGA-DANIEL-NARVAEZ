@@ -3,45 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 header {
   display: flex;
   justify-content: space-around;
   background: linear-gradient(to left, orange, rgb(255, 255, 255));
   height: 80%;
 }
-
 body {
   font-size: 0.5rem;
 }
-
 .imagen-icono {
   width: 5px;
 }
-
 .logo-container img {
   width: 200px;
   display: inline;
   margin-inline: -10%;
   margin-top: 10%;
 }
-
 .nombre-empresa {
   width: 100%;
   margin-inline: -10%;
 }
-
 a {
   text-decoration: none;
   color: black;
 }
-
 .nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .nav__list {
   display: flex;
   list-style: none;
@@ -62,7 +54,6 @@ a {
   margin-left: 18%;
   margin-top: 2%;
 }
-
 .inicio-caja1 {
   padding-right: 30%;
   position: relative;
@@ -76,7 +67,6 @@ a {
   font-size: x-large;
   right: 6%;
 }
-
 .pie-pagina {
   position: relative;
   font-size: 2rem;
@@ -118,11 +108,11 @@ a {
 .modalidad-gym {
   position: relative;
   font-size: 1.7rem;
+
   margin-bottom: 2%;
   margin-left: 18%;
   margin-right: 19%;
 }
-
 .historia {
   display: flex;
   margin-top: 1%;
@@ -131,19 +121,16 @@ a {
   font-size: 0.4rem;
   position: relative;
 }
-
 .comienzo-imagen {
   position: relative;
   width: 50%;
   font-size: 0.5rem;
 }
-
 .comienzo-texto {
   position: relative;
   font-size: 1.7rem;
   width: 50%;
 }
-
 .contenedor-contacto {
   display: flex;
   margin-top: 5%;
@@ -153,25 +140,21 @@ a {
   padding-bottom: 10%;
   position: relative;
 }
-
 .logo-logoface {
   width: 33%;
   position: relative;
   font-size: x-large;
 }
-
 .logo-logoinsta {
   width: 33%;
   position: relative;
   font-size: x-large;
 }
-
 .logo-logowsp {
   width: 33%;
   position: relative;
   font-size: x-large;
 }
-
 @media (min-width: 768px) {
   .nav__list {
     display: grid;
@@ -181,5 +164,3 @@ a {
     height: 20%;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+{
+  "name": "trabajo-final-pre-entrega-daniel-narvaez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daninarvaez/TRABAJO-FINAL-PRE-ENTREGA-DANIEL-NARVAEZ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daninarvaez/TRABAJO-FINAL-PRE-ENTREGA-DANIEL-NARVAEZ/issues"
+  },
+  "homepage": "https://github.com/daninarvaez/TRABAJO-FINAL-PRE-ENTREGA-DANIEL-NARVAEZ#readme"
+}
