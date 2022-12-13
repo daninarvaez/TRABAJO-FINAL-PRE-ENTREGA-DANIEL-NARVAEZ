@@ -155,3 +155,5 @@ a {
   position: relative;
   font-size: x-large;
 }
+@media (min-width: 768px) {
+}
