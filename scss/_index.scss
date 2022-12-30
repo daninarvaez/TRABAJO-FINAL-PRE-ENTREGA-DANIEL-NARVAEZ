@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  left: 10%;
+  width: 67%;
+  margin-left: 18%;
+  margin-top: 2%;
+}
+.inicio-caja1 {
+  padding-right: 30%;
+  position: relative;
+  font-size: 3rem;
+  height: 100%;
+}
+
+.inicio-caja2 {
+  position: relative;
+  height: 100%;
+  font-size: x-large;
+  right: 6%;
+  margin-right: 10%;
+}
+@media screen and (max-width: 768px) {
+  .nav__list {
+    display: table-column;
+    list-style: none;
+    margin-top: 100%;
+    width: 50;
+    height: 20%;
+  }
+}
